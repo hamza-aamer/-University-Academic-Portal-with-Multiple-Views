@@ -1,0 +1,61 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="SC6_CrsFeedbackSelect.aspx.cs" Inherits="SC6_CrsFeedbackSelect" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Course Feedback</title>
+    <link rel = "stylesheet" type = "text/css" href = "~/StyleSheet.css" />
+
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <asp:Label ID="TextBox1" runat="server" BackColor="#3366FF" BorderColor="#3399FF"
+                    BorderWidth="5px" Columns="2" Font-Size="X-Large" ForeColor="White" Height="40px"
+                    Width="100%" ><div class="StdHeader">Flex | Student Profile</div>
+            </asp:Label>
+            <asp:Label ID="TextBox2" runat="server" BackColor="#000099" BorderColor="#000099"
+                    BorderWidth="5px" Font-Size="X-Large" ForeColor="#CC9900" Height="40px"
+                    Width="100%" ><div class="StdHeader">Course Feedback |
+                    <asp:Button Text="Menu" ForeColor="White" runat="server" OnClick="Unnamed_Click" BackColor="#24248B" />
+                </div>
+            </asp:Label>
+        </div>
+        <br />
+        <asp:Menu ID="Menu1" runat="server" Font-Size="13" OnMenuItemClick="Menu1_MenuItemClick"
+            Font-Underline="True" ForeColor="White" Height="15" Width="50%" Visible="false" EnableTheming="True">
+            <Items>
+                <asp:MenuItem Text="Home" />
+                <asp:MenuItem Text="Course Registeration" />
+                <asp:MenuItem Text="Attendence" />
+                <asp:MenuItem Text="Evaluations" />
+                <asp:MenuItem Text="Transcript" />
+                <asp:MenuItem Text="Course Feedback" />
+            </Items>
+            <StaticHoverStyle BackColor="#0066FF" />
+            <StaticMenuItemStyle BorderColor="#3399FF" BorderWidth="2px" Font-Size="20pt" Height="40px" HorizontalPadding="30px" VerticalPadding="10px" />
+            <StaticMenuStyle BackColor="#000099" />
+        </asp:Menu>
+        <br /><br />
+        <asp:GridView ID="CourseList" runat="server" BackColor="White" BorderColor="#CCCCCC" BorderStyle="None"
+            BorderWidth="1px" CellPadding="3" Width="70%" AutoGenerateColumns="False" HorizontalAlign="Center">
+            <Columns>
+                <asp:BoundField DataField="Course_Code" HeaderText="Course Code" ItemStyle-HorizontalAlign="Center" />
+                <asp:BoundField DataField="Course_Name" HeaderText="Course Name" ItemStyle-HorizontalAlign="Center"/>
+                <asp:TemplateField HeaderText="Submission Form" ItemStyle-HorizontalAlign="Center">
+                    <ItemTemplate>
+                        <asp:HyperLink runat="server" NavigateUrl='<%# "~/SC5_SubmitFeedback.aspx?User_Id=" + User_Id + "&Section_Id=" + Eval("Section_Id") %>'> Submit Feedback</asp:HyperLink>
+                    </ItemTemplate>
+               </asp:TemplateField>
+            </Columns>
+            <FooterStyle BackColor="White" ForeColor="#000066" />
+            <HeaderStyle BackColor="#006699" Font-Bold="True" ForeColor="White" />
+            <PagerStyle ForeColor="#000066" HorizontalAlign="Center" BackColor="White" />
+            <RowStyle ForeColor="#000066" />
+            <SelectedRowStyle BackColor="#669999" Font-Bold="True" ForeColor="White" />
+        </asp:GridView>
+
+    </form>
+</body>
+</html>

@@ -1,0 +1,362 @@
+﻿body {
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+}
+
+.loginHeader {
+    padding-left: 30px;
+    margin-right: 2px;
+}
+
+.logInButton {
+    margin-left: 45%;
+    line-height: 40px;
+}
+
+.logInFormat {
+    align-self: center;
+    align-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+    width: 50%;
+    margin-left: 15%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.loginError{
+    padding-left : 2px; 
+}
+
+.StdHeader{
+    padding-left:30px;
+    padding-right:30px;
+    padding-top: 5px;
+    margin-right: 2px;
+    margin-left: 2px;
+    margin-top: 2px;
+    width:100%
+}
+
+.StdHome {
+    padding-left: 30px;
+    padding-top: 5px;
+    text-decoration-style:wavy;
+}
+
+.StudentData{
+    margin-left:5%;
+    padding-left:10%
+}
+
+.UniInfo {
+    margin-top: 30px;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 80%;
+}
+.CrsOffer {
+    margin-top: 30px;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 80%;
+}
+.ListUniInfo {
+    padding-left: 10%;
+    padding-right: 10%;
+    line-height: 30px;
+    width: inherit;
+    border: 3px solid #0000FF;
+} 
+.AdminOptions {
+    margin-left:5%;
+    margin-right:5%;
+    width:90%;
+}
+.AOption{
+    line-height:40px;
+    background-color:crimson;
+    margin-left:20%;
+    margin-right:20%;
+    text-align:center;
+    margin-bottom: 0px;
+}
+.AdmSpace{
+    height: 10px;
+    width: 100%;
+}
+.OFHeader {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.OFHeader p{
+   padding-left: 30px;
+   padding-top: 2px;
+}
+
+.CourseInfo {
+    min-width: 400px;
+    margin-left: 20%;
+    margin-right: 20%;
+    width: 60%;
+    margin-top: 60px;
+    padding-bottom: 30px;
+    background-color: bisque;
+}
+.CourseAllocate {
+    min-width: 400px;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    margin-top: 60px;
+}
+.COTxtBoxes {
+    margin-left: 5%;
+    margin-right:5%;
+    align-self:center;
+    align-content:center;
+    align-items:center;
+    padding-left: 5%;
+    padding-right: 5%;
+    flex-wrap:wrap;
+    width:80%;
+    margin-bottom:15px;
+    margin-top:5px;
+}
+.UserRegTables {
+    margin-left: 5%;
+    margin-right: 5%;
+    align-self: center;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 90%;
+}
+.TranscriptList {
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+}
+
+.TranscriptInfo {
+    padding-left:30px;
+}
+
+.COTFxtBoxes {
+    padding-left: 20%;
+    padding-right: 10%;
+}
+.t{
+    padding-left: 30px;
+}
+.CourseOfferheader {
+    margin-top: 60px;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-bottom: 40px;
+    width: 60%;
+    padding-top: 30px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: bisque;
+}
+.CrsList {
+    height: 40px;
+    width: 60%;
+    padding: 10px 0 0 2px; !important
+}
+.ListC{
+    margin-left:10%;
+    margin-right:10%;
+    margin-top:40px;
+    width:60%;
+}
+.CList {
+    margin-left:10%;
+    margin-right:10%;
+}
+.RegButton{
+    margin-top:30px;
+    margin-bottom:5px;
+    align-self:flex-end;
+    width:100%
+}
+.CoursesList {
+    Height: 40px;
+    Width: 60%;
+    /*    BorderWidth:5;
+    ForeColor:"Red";
+    Font-Underline="False";
+        BackColor="Yellow";
+            BorderColor="#FF9900";*/
+}
+.CoursesList td{
+    height:40px;
+    width:60%;
+}
+
+.ErrSpace {
+    margin-top: 2px;
+    padding-top: 2px;
+    padding-left: 50px;
+    margin-left: 60px;
+}
+
+.CourseInfo{
+    margin-left:10%;
+    margin-right:10%;
+    width:80%;
+}
+
+.SecCreate{
+    margin-left:30%;
+    margin-right:30%;
+    width:40%;
+    height:40px;
+    background-color:darkblue;
+}
+.MarkUpdate {
+    margin-left: 30%;
+    margin-right: 30%;
+    width: 40%;
+    height: 40px;
+}
+
+.UserInfo {
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 80%
+}
+
+.CourseSelect {
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 50px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+/*ID="TextBox2" runat="server" BackColor="#000099" BorderColor="#000099"
+                    BorderWidth="5px" Columns="2" Font-Size="X-Large" ForeColor="#CC9900" Height="40px"
+                    OnTextChanged="TextBox1_TextChanged" Width="100%" CssClass="StdHome">Home |*/
+/*
+Height="40px" Width="60%" Font-Bold="False" BorderWidth="5" ForeColor="Red" Font-Underline="False" BackColor="Yellow" BorderColor="#FF9900"
+
+<!-- <p class="COTxtBoxes" >
+<asp:Label ID="CoordLabel" runat="server" Text="Coordinator Username" Width="200px" > </asp:Label >
+<asp:TextBox ID="Coordinator" runat="server" Width="200" OnTextChanged="SemCode_TextChanged" > </asp:TextBox >
+<asp:Label ID="InvalidCoord" runat="server" Text="Error: Invalid Coordinator Name" CssClass="ErrSpace" ForeColor="#FF3300" Height="25px" Visible="False" > </asp:Label >
+</p > -->
+    
+*/
+style="min-width: 600px; margin-top: 40px; margin-right: 10%; margin-left: 10%; padding-right: 10%; padding-left: 10%"
+
+/*
+        <div style="padding-right: 10%; padding-left: 10%; margin-right: 10%; margin-left: 10%">
+            <asp:DropDownList ID="Campuses" runat="server" Width="300" Height="25px" OnTextChanged="Campus_TextChanged"></asp:DropDownList>
+            <asp:Label ID="Label1" runat="server" CssClass="COTxtBoxes" ForeColor="Red" Text="Course Already Offered" Visible="False" Width="250px"></asp:Label>
+        </div>
+
+
+
+                    <asp:TemplateField HeaderText="Instructor">
+                    <ItemTemplate>
+                        <asp:TextBox ID="InstructorId" runat="server" Width="98%" Height="100%" OnTextChanged="InstructorSearch"></asp:TextBox>
+                        <asp:DropDownList ID="productOptionsDropDown" runat="server" Visible="false"></asp:DropDownList>
+                    </ItemTemplate>
+                </asp:TemplateField>
+
+            <p class="COTxtBoxes">
+                <asp:Label ID="DeptLabel" runat="server" Text="Department Code" Width="200px"></asp:Label>
+                <asp:TextBox ID="DeptCode" runat="server" Width="200"></asp:TextBox>
+                <asp:Label ID="InvalidDeptCode" runat="server" Text="Error: Invalid Department Code" CssClass="ErrSpace" ForeColor="#FF3300" Height="25px" Visible="False"></asp:Label>
+            </p>
+            <p class="COTxtBoxes">
+                <asp:Label ID="CrsLabel" runat="server" Text="Course Code" Width="200"></asp:Label>
+                <asp:TextBox ID="CrsCode" runat="server" Width="200"></asp:TextBox>
+                <asp:Label ID="InvalidCrsCode" runat="server" Text="Error: Invalid Course Code" CssClass="ErrSpace" ForeColor="#FF3300" Height="25px" Visible="False"></asp:Label>
+            </p>
+            <p class="COTxtBoxes">
+                <asp:Label ID="SecLabel" runat="server" Text="Section Code" Width="200px"></asp:Label>
+                <asp:TextBox ID="SecCode" runat="server" Width="200"></asp:TextBox>
+                <asp:Label ID="InvalidSecCode" runat="server" Text="Error: Invalid Section Code" CssClass="ErrSpace" ForeColor="#FF3300" Height="25px" Visible="False"></asp:Label>
+            </p>
+            <p class="COTxtBoxes">
+                <asp:Label ID="InstLabel" runat="server" Text="Instructor Name" Width="200px"></asp:Label>
+                <asp:TextBox ID="InstCode" runat="server" Width="200"></asp:TextBox>
+                <asp:Label ID="InvalidInstructor" runat="server" Text="Error: Invalid Section Code" CssClass="ErrSpace" ForeColor="#FF3300" Height="25px" Visible="False"></asp:Label>
+            </p>
+
+
+
+         <asp:GridView ID="GridView1" runat="server" BackColor="#DEBA84" BorderColor="#DEBA84" BorderStyle="None" BorderWidth="1px" CellPadding="3" CellSpacing="2" OnSelectedIndexChanged="GridView1_SelectedIndexChanged" CssClass="StudentData" Font-Size="Medium" GridLines="None" Width="100%">
+                <FooterStyle BackColor="#F7DFB5" ForeColor="#8C4510" />
+                <HeaderStyle BackColor="#A55129" Font-Bold="True" ForeColor="White" />
+                <PagerStyle ForeColor="#8C4510" HorizontalAlign="Center" />
+                <RowStyle BackColor="#FFF7E7" ForeColor="#8C4510" />
+                <SelectedRowStyle BackColor="#738A9C" Font-Bold="True" ForeColor="White" />
+                <SortedAscendingCellStyle BackColor="#FFF1D4" />
+                <SortedAscendingHeaderStyle BackColor="#B95C30" />
+                <SortedDescendingCellStyle BackColor="#F1E5CE" />
+                <SortedDescendingHeaderStyle BackColor="#93451F" />
+            </asp:GridView>
+
+
+
+
+            <div class="CourseAllocate" >
+            <div style="width: 100%; height:100%;">
+                <asp:GridView ID="GridView1" runat="server" BackColor="White" BorderColor="#CCCCCC" BorderStyle="None"
+                    BorderWidth="1px" CellPadding="3" Width="100%" AutoGenerateColumns="false" >
+                    <Columns>
+                        <asp:BoundField DataField="Name" HeaderText="Evaluation" ItemStyle-HorizontalAlign="Center" />
+                        <asp:BoundField DataField="Weightage" HeaderText="Weightage" ItemStyle-HorizontalAlign="Center" />
+                        <asp:BoundField DataField="Range" HeaderText="Max Marks" ItemStyle-HorizontalAlign="Center" />
+                    </Columns>            
+                    <FooterStyle BackColor="White" ForeColor="#000066" />
+                    <HeaderStyle BackColor="#006699" Font-Bold="True" ForeColor="White" />
+                    <PagerStyle BackColor="White" ForeColor="#000066" HorizontalAlign="Left" />
+                    <RowStyle ForeColor="#000066" />
+                    <SelectedRowStyle BackColor="#669999" Font-Bold="True" ForeColor="White" />
+                </asp:GridView>
+            </div>
+        </div>
+        <br />
+
+<!--
+        <div class="ListC">
+            <HeaderTemplate>
+                <tr>
+                    <th><asp:Label ID="Label1" runat="server" Height="40px" Width="5%" BackColor="Yellow" 
+                        BorderColor="#FF9900" BorderWidth="5px" ForeColor="Red" CssClass="CrsList">|</asp:Label></th> 
+                    <th><asp:Label ID="Label2" runat="server" Height="40px" Width="20%" BackColor="Yellow" 
+                        BorderColor="#FF9900" BorderWidth="5px" ForeColor="Red" CssClass="CrsList">Code</asp:Label></th> 
+                    <th><asp:Label ID="Label3" runat="server" Height="40px" Width="50%" BackColor="Yellow" 
+                        BorderColor="#FF9900" BorderWidth="5px" ForeColor="Red" CssClass="CrsList">Course Name</asp:Label></th>
+                    <th><asp:Label ID="Label4" runat="server" Height="40px" Width="10%" BackColor="Yellow" 
+                        BorderColor="#FF9900" BorderWidth="5px" ForeColor="Red" CssClass="CrsList">CrdHrs</asp:Label>&nbsp;</th>
+                </tr>
+            </HeaderTemplate>
+            <br />
+        </div>
+        <div>
+            <asp:Repeater ID="CoursesRepeater" runat="server" OnItemCommand="CoursesRepeater_ItemCommand">
+                <ItemTemplate>
+                    <tr>
+                        <td><asp:CheckBox ID="CourseCheckbox" runat="server" Height="40" Width="5%" BorderWidth="5" BackColor="Yellow"
+                            BorderColor="#FF9933" ForeColor="Red" CssClass="CrsList"></asp:CheckBox></td>
+                        <td><asp:Label ID="CourseCode" runat="server" Height="40" Width="20%" BorderWidth="5" BackColor="Yellow" 
+                            BorderColor="#FF9933" ForeColor="Red" CssClass="CrsList" Text='<%# Eval("Course_Code") %>' /></td>
+                        <td><asp:Label ID="Label6" runat="server" Height="40" Width="50%" BorderWidth="5" BackColor="Yellow" 
+                            BorderColor="#FF9933" ForeColor="Red" CssClass="CrsList" Text='<%# Eval("Course_Name") %>' /></td>
+                        <td><asp:Label ID="Label7" runat="server" Height="40" Width="10%" BorderWidth="5" BackColor="Yellow" 
+                            BorderColor="#FF9933" ForeColor="Red" CssClass="CrsList" Text='<%# Eval("CrdHrs") %>' /></td>
+                      <br/>
+                    </tr>
+                </ItemTemplate>
+            </asp:Repeater>
+        </div>-->
+*/
